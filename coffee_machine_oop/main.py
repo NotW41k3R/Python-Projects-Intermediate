@@ -15,10 +15,11 @@ def order_and_get():
         coin_machine.report()
         return
     else:
-        menu.find_drink(selected_drink)
-        if(coin_machine.make_payment(menu.find_drink(selected_drink).cost)):
-            if(coffee_maker.is_resource_sufficient(menu.find_drink(selected_drink))):
-                coffee_maker.make_coffee(menu.find_drink(selected_drink))
+        current_drink = menu.find_drink(selected_drink)
+        
+        if(coin_machine.make_payment(current_drink.cost)):
+            if(coffee_maker.is_resource_sufficient(current_drink)):
+                coffee_maker.make_coffee(current_drink)
 
 
 start = 'y'
