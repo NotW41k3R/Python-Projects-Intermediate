@@ -5,7 +5,6 @@ This repository focuses on transitioning from basic scripting to structured, obj
 
 Each project applies multiple concepts together, emphasizing code organization, reusability, and real-world workflows.
 
----
 
 ## Topics covered
 
@@ -23,7 +22,6 @@ Each project applies multiple concepts together, emphasizing code organization, 
 * Strongly dynamic typing and function argument packing/unpacking
 * Deploying and hosting Python applications using PythonAnywhere
 
----
 
 ## Project style
 
@@ -33,13 +31,11 @@ Each project applies multiple concepts together, emphasizing code organization, 
 * Practical use of files, data formats, and external services
 * Incremental refactors and improved versions preserved
 
----
 
 ## Purpose
 
 This repository documents the shift from beginner-level exercises to intermediate software design, focusing on building maintainable, extensible Python applications while integrating real-world tools, data, and workflows.
 
----
 
 Note: Run the games from inside its project folder to avoid image path errors (e.g. `python main.py` while in `/snake_game`).
 This is because the background image (`img.gif`) uses a relative path.
