@@ -1,4 +1,4 @@
-# Python Projects – Intermediate
+# Python Projects - Intermediate
 
 A collection of intermediate-level Python projects developed as part of the 100 Days of Python course.
 This repository focuses on transitioning from basic scripting to structured, object-oriented applications, interactive programs, and small-scale systems with persistence and external integrations.
